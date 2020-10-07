@@ -1,0 +1,10 @@
+.nav-link:active, .nav-link:hover
+{
+	color:#FD3A13;
+	border-bottom:2px solid #FD3A13;
+}
+
+.navbar
+{
+	border-bottom: 1px solid #dbdbdb;
+}
