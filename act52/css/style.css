@@ -1,0 +1,49 @@
+*
+{
+	color: #099C98;
+	font-family: 'Dosis', sans-serif;
+}
+
+h1
+{
+	font-family: 'Dosis', sans-serif;
+	font-weight: 500px;
+}
+
+p
+{
+	text-align: center;
+}
+
+input:focus:invalid
+{
+	-webkit-box-shadow: 1px 2px 19px -6px #FF0000; 
+	box-shadow: 1px 2px 19px -6px #FF0000;
+}
+
+input:focus:valid
+{
+	-webkit-box-shadow: 1px 2px 19px -6px #0EF6F0; 
+	box-shadow: 1px 2px 19px -6px #0EF6F0;
+}
+
+#form_note
+{
+	color: grey;
+	font-size: 12px;
+}
+
+legend
+{
+	text-align: center;
+}
+fieldset
+{
+	width: 40%;
+	text-align: center;
+}
+
+button
+{
+	
+}
