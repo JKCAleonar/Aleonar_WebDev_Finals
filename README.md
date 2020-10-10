@@ -1,5 +1,6 @@
 What is your COVID-19 web app name?<br>
-My COVID-19 web app name is COOP-Lab.
+My COVID-19 web app name is COOP-Lab.<br><br>
+
 What is your motivation?<br>
 
 Link to your Sitemap, Wireframe, and Video Pitch<br>
