@@ -1,0 +1,180 @@
+.post-number{
+    color: gray;
+}
+
+.nav-top:hover
+{
+	color: black;
+}
+
+
+.nav-top
+{
+	color: black;
+}
+
+ion-icon
+{
+	width:30px;
+	height:30px;
+}
+
+li.nav-item1
+{
+	padding-right: 20px;
+}
+
+.navbar-brand
+{
+	color: black;
+}
+
+.logo-txt
+{
+	color:black;
+	font-family: 'Cookie', cursive;
+	font-size:35px;
+	margin-left: 270px;
+	margin-bottom: -6px;
+}
+
+.navbar
+{
+	
+	border-bottom: 1px solid #dbdbdb;
+	vertical-align: center;
+	background:white;
+}
+
+.nav-items
+{
+	margin-right:20px;
+	list-style-type: none;
+}
+
+ul.nav-items, li.nav-item
+{
+	display:inline;
+}
+
+li.navv-item
+{
+	list-style-type: none;
+	display:inline;
+}
+
+li.nav-item
+{
+	margin-top:50px;
+}
+li.search-bar
+{
+	text-align: center;
+	border-radius: 5px;
+	background-color: grey;
+	padding:10px;
+	
+}
+
+ul.nav-items
+{
+	vertical-align:center;
+	margin-right: 190px;
+}
+
+.search-bar
+{
+	text-align: center;
+	border-radius: 5px;
+	background-color:#FAFAFA;
+	padding:10px;
+}
+
+
+
+.proficon{
+  width: 30px;
+  border-radius: 100%;
+  float: left;
+  margin-top: -8px;
+  position: relative;
+}
+
+.posticon{
+  width: 14%;
+  border-radius: 100%;
+  margin: 5px 15px 5px 5px;
+}
+
+
+
+.addpost
+{
+	height:40px;
+	margin-right:34px;;
+	float:right;
+}
+
+.nav-pills
+{
+	float:center;
+}
+
+ul.post_icons
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li.post_icons-items
+{
+	display:inline;
+}
+
+.car-image
+{
+	width:600px;
+	height:300px;
+}
+
+#prova
+{
+	width:50%;
+	margin-bottom:5%;
+	overflow:hidden;
+}
+
+.fa-plus-square
+{
+	color:#007BFF;
+}
+
+.fa-plus-square:hover
+{
+	color:#0063ce;
+}
+
+#menu2
+{
+	width:50%;
+}
+
+
+
+/**
+	
+	
+	<li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-cogs"></i></a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">Profile</a>
+                        <a class="dropdown-item" href="#">Saved</a>
+                        <a class="dropdown-item" href="#">Settings</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Log Out</a>
+                    </div>
+                </li>
+	
+*/
+
