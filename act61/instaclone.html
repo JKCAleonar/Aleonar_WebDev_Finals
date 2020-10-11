@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<link rel="icon" type="image/gif/png" href="instalogo.png">
+        <title>Instagram</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <nav class="navbar sticky-top" style="	border-bottom: 1px solid #dbdbdb;">
+        <h3 class="logo-txt">Instagram</h3>
+		<li class="navv-item"  style="margin-left:7.5%;">
+			<input class="form-control mr-sm-2 search-bar" type="search" placeholder="Search" aria-label="Search">
+		</li>
+            <ul class="nav" style="margin-right: 190px;">
+			
+                <li class= "nav-item1">
+					<a class="nav-top" href="#"><i class="fas fa-home fa-2x"></i></a>
+				</li>
+				<li class= "nav-item1">
+					<a class="nav-top" href="#"><ion-icon name="paper-plane-outline"></ion-icon></a>
+				</li>
+				<li class= "nav-item1">
+					<a class="nav-top" href="#"><i class="far fa-compass fa-2x"></i></a>
+				</li>
+				<li class= "nav-item1">
+					<a class="nav-top" href="#"><i class="far fa-heart fa-2x"></i></a>
+				</li>
+                <li class="nav-item1 dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img class="proficon" src="profile.jpg" style="margin-bottom:5px;"></i></a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">Profile</a>
+                        <a class="dropdown-item" href="#">Saved</a>
+                        <a class="dropdown-item" href="#">Settings</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Log Out</a>
+                    </div>
+                </li>
+
+            </ul>
+        </nav>
+        
+        <!-- Modal Begin -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-body ">
+                  <textarea class="form-control" aria-label="With textarea"></textarea>
+                  <!--<input class="form-control mr-sm-2 custom-search-modal" type="search" placeholder="" aria-label="Search">-->
+                  <i class="fas fa-camera-retro p-1 border rounded mt-1" ></i>
+                  <i class="fas fa-map-marker-alt p-1 border rounded mt-1" ></i>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-success btn-sm">Publish</button>
+              </div>
+            </div>
+          </div>
+        </div> <!-- modal end -->
+        
+        
+            
+        <div class="container-fluid ">
+          <!-- Nav pills -->
+            <ul class="nav nav-pills justify-content-center mt-4" role="tablist">
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="pill" href="#home"><i class="fa fa-square" aria-hidden="true"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="pill" href="#menu2"><i class="fa fa-th" aria-hidden="true"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class=" btn nav-link postbtn" data-toggle="modal" data-target="#exampleModal" role="button"><i class="fas fa-plus-square" aria-hidden="true"></i></a>
+				</li>
+			</ul>
+			
+
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div id="home" class="container-fluid tab-pane active "><br> <!--The Scrolling section-->
+                    <div class="row justify-content-center">
+                        <div class="">
+                            
+                            <div class="card mx-auto custom-card" id="prova">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <div class="col-6 float-left "><h4><img src="profile.jpg" class="posticon">jkcaleonar</h4></div>
+                                    <div class="col-6 float-right text-right post-number" class="dropdown"><h4>...</h4></div>
+                                </div>
+                                <img class="card-img" src="posts/Neon Socks.jpg" alt="Card image cap">
+                                <div class="card-body px-3">
+									<h5 class="card-title">
+										<ul class="post_icons"  style="margin-bottom:-1%;">
+											<li class="post_icons-items" style="float:left;margin-right:2%;" ><i class="far fa-heart fa-lg"></i></li>
+											<li class="post_icons-items" style="float:left;margin-right:2%;"><i class="far fa-comment fa-lg fa-flip-horizontal"></i></li>
+											<li class="post_icons-items" style="float:left;margin-top:-0.4%;"><ion-icon name="paper-plane-outline"></ion-icon></li>
+											<li class="post_icons-items" style="float:right;"><i class="far fa-bookmark fa-lg"></i></li>
+										</ul>
+									</h5>
+									<h6 class="card-subtitle" style="margin-top:6%;">31 likes</b></h6>
+									<p class="card-text"><b>jkcaleonar</b> "Neons stripes on black clothes" is a hella nice aesthetic</p>
+									<p class="card-text" style="font-size:11px; color:grey;"> 7 MINUTES AGO</p>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">
+											<input id="cmmtbox" type="text" placeholder="Add a comment.." style="border:none;">
+											<a href="#" id="cmmtbox_btn" style="float:right;">Post</a>
+										</li>
+									</ul>
+								 </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card" id="prova">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <div class="col-6 float-left "><h4><img src="profile.jpg" class="posticon">jkcaleonar</h4></div>
+                                    <div class="col-6 float-right text-right post-number" class="dropdown"><h4>...</h4></div>
+                                </div>
+                                <img class="card-img" src="posts/siblings.jpg" alt="Card image cap">
+                                <div class="card-body px-3">
+									<h5 class="card-title">
+										<ul class="post_icons"  style="margin-bottom:-1%;">
+											<li class="post_icons-items" style="float:left;margin-right:2%;" ><i class="far fa-heart fa-lg"></i></li>
+											<li class="post_icons-items" style="float:left;margin-right:2%;"><i class="far fa-comment fa-lg fa-flip-horizontal"></i></li>
+											<li class="post_icons-items" style="float:left;margin-top:-0.4%;"><ion-icon name="paper-plane-outline"></ion-icon></li>
+											<li class="post_icons-items" style="float:right;"><i class="far fa-bookmark fa-lg"></i></li>
+										</ul>
+									</h5>
+									<h6 class="card-subtitle" style="margin-top:6%;">25 likes</b></h6>
+									<p class="card-text"><b>jkcaleonar</b> Having a great time with my sibs~</p>
+									<p class="card-text" style="font-size:11px; color:grey;"> 14 MINUTES AGO</p>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">
+											<input id="cmmtbox" type="text" placeholder="Add a comment.." style="border:none;">
+											<a href="#" id="cmmtbox_btn" style="float:right;">Post</a>
+										</li>
+									</ul>
+								 </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card" id="prova">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <div class="col-6 float-left "><h4><img src="profile.jpg" class="posticon">jkcaleonar</h4></div>
+                                    <div class="col-6 float-right text-right post-number" class="dropdown"><h4>...</h4></div>
+                                </div>
+                                <img class="card-img" src="posts/grind.jpg" alt="Card image cap">
+                                <div class="card-body px-3">
+									<h5 class="card-title">
+										<ul class="post_icons"  style="margin-bottom:-1%;">
+											<li class="post_icons-items" style="float:left;margin-right:2%;" ><i class="far fa-heart fa-lg"></i></li>
+											<li class="post_icons-items" style="float:left;margin-right:2%;"><i class="far fa-comment fa-lg fa-flip-horizontal"></i></li>
+											<li class="post_icons-items" style="float:left;margin-top:-0.4%;"><ion-icon name="paper-plane-outline"></ion-icon></li>
+											<li class="post_icons-items" style="float:right;"><i class="far fa-bookmark fa-lg"></i></li>
+										</ul>
+									</h5>
+									<h6 class="card-subtitle" style="margin-top:6%;">52 likes</b></h6>
+									<p class="card-text"><b>jkcaleonar</b> Tried playing AQ3D again, left a good grind on hold.</p>
+									<p class="card-text" style="font-size:11px; color:grey;"> 1 DAY AGO</p>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">
+											<input id="cmmtbox" type="text" placeholder="Add a comment.." style="border:none;">
+											<a href="#" id="cmmtbox_btn" style="float:right;">Post</a>
+										</li>
+									</ul>
+								 </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card" id="prova">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <div class="col-6 float-left "><h4><img src="profile.jpg" class="posticon">jkcaleonar</h4></div>
+                                    <div class="col-6 float-right text-right post-number" class="dropdown"><h4>...</h4></div>
+                                </div>
+                                <img class="card-img" src="posts/starbound.JPG" alt="Card image cap">
+                                <div class="card-body px-3">
+									<h5 class="card-title">
+										<ul class="post_icons"  style="margin-bottom:-1%;">
+											<li class="post_icons-items" style="float:left;margin-right:2%;" ><i class="far fa-heart fa-lg"></i></li>
+											<li class="post_icons-items" style="float:left;margin-right:2%;"><i class="far fa-comment fa-lg fa-flip-horizontal"></i></li>
+											<li class="post_icons-items" style="float:left;margin-top:-0.4%;"><ion-icon name="paper-plane-outline"></ion-icon></li>
+											<li class="post_icons-items" style="float:right;"><i class="far fa-bookmark fa-lg"></i></li>
+										</ul>
+									</h5>
+									<h6 class="card-subtitle" style="margin-top:6%;">76 likes</b></h6>
+									<p class="card-text"><b>jkcaleonar</b> Exploring space in Starbound, fun but escort missions are not my cup of tea.</p>
+									<p class="card-text" style="font-size:11px; color:grey;"> 2 DAYS AGO</p>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">
+											<input id="cmmtbox" type="text" placeholder="Add a comment.." style="border:none;">
+											<a href="#" id="cmmtbox_btn" style="float:right;">Post</a>
+										</li>
+									</ul>
+								 </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card" id="prova">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <div class="col-6 float-left "><h4><img src="profile.jpg" class="posticon">jkcaleonar</h4></div>
+                                    <div class="col-6 float-right text-right post-number" class="dropdown"><h4>...</h4></div>
+                                </div>
+                                <img class="card-img" src="posts/homestuck.gif" alt="Card image cap">
+                                <div class="card-body px-3">
+									<h5 class="card-title">
+										<ul class="post_icons"  style="margin-bottom:-1%;">
+											<li class="post_icons-items" style="float:left;margin-right:2%;" ><i class="far fa-heart fa-lg"></i></li>
+											<li class="post_icons-items" style="float:left;margin-right:2%;"><i class="far fa-comment fa-lg fa-flip-horizontal"></i></li>
+											<li class="post_icons-items" style="float:left;margin-top:-0.4%;"><ion-icon name="paper-plane-outline"></ion-icon></li>
+											<li class="post_icons-items" style="float:right;"><i class="far fa-bookmark fa-lg"></i></li>
+										</ul>
+									</h5>
+									<h6 class="card-subtitle" style="margin-top:6%;">102 likes</b></h6>
+									<p class="card-text"><b>jkcaleonar</b> Any Homestuckers out there? &#128527; Cometh, and join the fandom: <a href="https://www.homestuck.com/story">Read it here!</a></p>
+									<p class="card-text" style="font-size:11px; color:grey;"> 2 DAYS AGO</p>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">
+											<input id="cmmtbox" type="text" placeholder="Add a comment.." style="border:none;">
+											<a href="#" id="cmmtbox_btn" style="float:right;">Post</a>
+										</li>
+									</ul>
+								 </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card" id="prova">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <div class="col-6 float-left "><h4><img src="profile.jpg" class="posticon">jkcaleonar</h4></div>
+                                    <div class="col-6 float-right text-right post-number" class="dropdown"><h4>...</h4></div>
+                                </div>
+                                <img class="card-img" src="posts/trollhunters.JPG" alt="Card image cap">
+                                <div class="card-body px-3">
+									<h5 class="card-title">
+										<ul class="post_icons"  style="margin-bottom:-1%;">
+											<li class="post_icons-items" style="float:left;margin-right:2%;" ><i class="far fa-heart fa-lg"></i></li>
+											<li class="post_icons-items" style="float:left;margin-right:2%;"><i class="far fa-comment fa-lg fa-flip-horizontal"></i></li>
+											<li class="post_icons-items" style="float:left;margin-top:-0.4%;"><ion-icon name="paper-plane-outline"></ion-icon></li>
+											<li class="post_icons-items" style="float:right;"><i class="far fa-bookmark fa-lg"></i></li>
+										</ul>
+									</h5>
+									<h6 class="card-subtitle" style="margin-top:6%;">68 likes</b></h6>
+									<p class="card-text"><b>jkcaleonar</b> Feeling the HYPE! Might rewatch the entire trilogy series to keep the hype train going~</p>
+									<p class="card-text" style="font-size:11px; color:grey;"> 2 DAYS AGO</p>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">
+											<input id="cmmtbox" type="text" placeholder="Add a comment.." style="border:none;">
+											<a href="#" id="cmmtbox_btn" style="float:right;">Post</a>
+										</li>
+									</ul>
+								 </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card" id="prova">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <div class="col-6 float-left "><h4><img src="profile.jpg" class="posticon">jkcaleonar</h4></div>
+                                    <div class="col-6 float-right text-right post-number" class="dropdown"><h4>...</h4></div>
+                                </div>
+                                <img class="card-img" src="posts/number5.jpg" alt="Card image cap">
+                                <div class="card-body px-3">
+									<h5 class="card-title">
+										<ul class="post_icons"  style="margin-bottom:-1%;">
+											<li class="post_icons-items" style="float:left;margin-right:2%;" ><i class="far fa-heart fa-lg"></i></li>
+											<li class="post_icons-items" style="float:left;margin-right:2%;"><i class="far fa-comment fa-lg fa-flip-horizontal"></i></li>
+											<li class="post_icons-items" style="float:left;margin-top:-0.4%;"><ion-icon name="paper-plane-outline"></ion-icon></li>
+											<li class="post_icons-items" style="float:right;"><i class="far fa-bookmark fa-lg"></i></li>
+										</ul>
+									</h5>
+									<h6 class="card-subtitle" style="margin-top:6%;">142 likes</b></h6>
+									<p class="card-text"><b>jkcaleonar</b> Freaking adore the madman. <a href="https://www.instagram.com/explore/tags/number5/?hl=en">#number5</a> <a href="https://www.instagram.com/explore/tags/numberfive/?hl=en">#numberfive</a> <a href="https://www.instagram.com/explore/tags/umbrellaacademy/?hl=en">#umbrellaacademy</a></p>
+									<p class="card-text" style="font-size:11px; color:grey;"> 3 DAYS AGO</p>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">
+											<input id="cmmtbox" type="text" placeholder="Add a comment.." style="border:none;">
+											<a href="#" id="cmmtbox_btn" style="float:right;">Post</a>
+										</li>
+									</ul>
+								 </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card" id="prova">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <div class="col-6 float-left "><h4><img src="profile.jpg" class="posticon">jkcaleonar</h4></div>
+                                    <div class="col-6 float-right text-right post-number" class="dropdown"><h4>...</h4></div>
+                                </div>
+                                <img class="card-img" src="posts/enigma.JPG" alt="Card image cap">
+                                <div class="card-body px-3">
+									<h5 class="card-title">
+										<ul class="post_icons"  style="margin-bottom:-1%;">
+											<li class="post_icons-items" style="float:left;margin-right:2%;" ><i class="far fa-heart fa-lg"></i></li>
+											<li class="post_icons-items" style="float:left;margin-right:2%;"><i class="far fa-comment fa-lg fa-flip-horizontal"></i></li>
+											<li class="post_icons-items" style="float:left;margin-top:-0.4%;"><ion-icon name="paper-plane-outline"></ion-icon></li>
+											<li class="post_icons-items" style="float:right;"><i class="far fa-bookmark fa-lg"></i></li>
+										</ul>
+									</h5>
+									<h6 class="card-subtitle" style="margin-top:6%;">29 likes</b></h6>
+									<p class="card-text"><b>jkcaleonar</b> "ǝnígmǝ", One of the first mangas I've read, definitely a personal favorite.</p>
+									<p class="card-text" style="font-size:11px; color:grey;"> 5 DAYS AGO</p>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">
+											<input id="cmmtbox" type="text" placeholder="Add a comment.." style="border:none;">
+											<a href="#" id="cmmtbox_btn" style="float:right;">Post</a>
+										</li>
+									</ul>
+								 </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card" id="prova">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <div class="col-6 float-left "><h4><img src="profile.jpg" class="posticon">jkcaleonar</h4></div>
+                                    <div class="col-6 float-right text-right post-number" class="dropdown"><h4>...</h4></div>
+                                </div>
+                                <img class="card-img" src="posts/throwback.jpg" alt="Card image cap">
+                                <div class="card-body px-3">
+									<h5 class="card-title">
+										<ul class="post_icons"  style="margin-bottom:-1%;">
+											<li class="post_icons-items" style="float:left;margin-right:2%;" ><i class="far fa-heart fa-lg"></i></li>
+											<li class="post_icons-items" style="float:left;margin-right:2%;"><i class="far fa-comment fa-lg fa-flip-horizontal"></i></li>
+											<li class="post_icons-items" style="float:left;margin-top:-0.4%;"><ion-icon name="paper-plane-outline"></ion-icon></li>
+											<li class="post_icons-items" style="float:right;"><i class="far fa-bookmark fa-lg"></i></li>
+										</ul>
+									</h5>
+									<h6 class="card-subtitle" style="margin-top:6%;">32 likes</b></h6>
+									<p class="card-text"><b>jkcaleonar</b> Throwback with the fam, found parent's wedding photo &#10084;</p>
+									<p class="card-text" style="font-size:11px; color:grey;"> 5 DAYS AGO</p>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">
+											<input id="cmmtbox" type="text" placeholder="Add a comment.." style="border:none;">
+											<a href="#" id="cmmtbox_btn" style="float:right;">Post</a>
+										</li>
+									</ul>
+								 </div>       
+                            </div>
+                    
+                        </div>
+                    </div>    
+                </div> <!--End of Scrolling section-->
+			
+                
+                <div id="menu2" class="container-fluid tab-pane fade"><br><!--The Compact section-->
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 col-sm-6 px-1 my-1 ">
+                            <img src="posts/neoncut.JPG" alt="Card image cap" width="100%" height="350px">
+                        </div>
+                        <div class="col-md-6 col-sm-6 px-1 my-1 ">
+                            <img src="posts/sibcut.JPG" alt="Card image cap" width="100%" height="350px">
+                        </div>
+                        <div class="col-md-6 col-sm-6 px-1 my-1 ">
+                            <img src="posts/gricut.JPG" alt="Card image cap" width="100%" height="350px">
+                        </div>
+                        <div class="col-md-6 col-sm-6 px-1 my-1 ">
+                            <img src="posts/starcut.JPG" alt="Card image cap" width="100%" height="350px">
+                        </div>
+                        <div class="col-md-6 col-sm-6 px-1 my-1">
+                            <img src="posts/homecut.JPG" alt="Card image cap" width="100%" height="350px">
+                        </div>
+                        <div class="col-md-6 col-sm-6 px-1 my-1">
+                            <img src="posts/trollcut.JPG" alt="Card image cap" width="100%" height="350px">
+                        </div>
+                        <div class="col-md-6 col-sm-6 px-1 my-1">
+                            <img src="posts/numcut.JPG" alt="Card image cap" width="100%" height="350px">
+                        </div>
+                        <div class="col-md-6 col-sm-6 px-1 my-1">
+                            <img src="posts/enicut.JPG" alt="Card image cap" width="100%" height="350px">
+                        </div>
+                        <div class="col-md-6 col-sm-6 px-1 my-1">
+                            <img src="posts/throwcut.JPG" alt="Card image cap" width="100%" height="350px">
+                        </div>
+                        
+                    </div>
+                </div> <!--End of Compact section-->
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    </body>
+</html>
