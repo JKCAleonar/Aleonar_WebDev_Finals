@@ -1,0 +1,318 @@
+*
+{
+	font-family: 'Fjalla One', sans-serif;
+}
+
+
+html
+{
+	background-color: #96cfff;
+}
+
+.row
+{
+	background-color: #96cfff;
+	width: 101%;
+	
+}
+
+.navbar
+{
+	border-radius: 5px;
+	margin-bottom: 30px;
+	margin-right: 35px;
+	background-color: #42A5FF;
+}
+
+.nav-logo
+{
+	margin-top:15px;
+	margin-left:35px;
+}
+
+li
+{
+	padding-left: 60px;
+}
+
+.login
+{
+	float: right;
+	height:25x;
+	border: 1px solid 
+}
+
+.modal
+{
+	background-color:#96cfff;
+}
+
+.title_acc
+{
+	font-size:10px; 
+	color:black;
+	background-color:none;
+	border: none;
+	border-bottom:1px solid black;
+}
+
+.fas
+{
+	margin-left: 60px;
+	
+}
+
+.profHead
+{
+	background-color:#66baff;
+	color: white;
+}
+
+.content
+{
+	margin-top:30px;
+	background-color: #96cfff;
+}
+
+
+/* Problem with the contributors box*/
+html, body, .grid-container { height: 100%; margin: 0; }
+
+.grid-container 
+{
+	margin-bottom:-40px;
+	background-color: #96cfff;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 0.2fr 1.8fr 0fr;
+	gap: 0px 50px;
+	grid-template-areas:
+    "motto motto motto motto"
+    "sidebar main main right"
+    ". . . .";
+	overflow:hidden;
+}
+
+.motto { grid-area: motto; border:none; }
+
+.motto-words
+{
+	font-size:20px;
+	margin-top:10px;
+	text-align:center;
+}
+
+.sidebar { 
+	background-color: #42A5FF;
+	border: none;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows:  1fr;
+	grid-template-areas:
+	"sbr_container"
+	"srh_container"
+	"ads_container"
+	grid-area: sidebar; 
+	margin-left:20%;
+}
+
+
+.main 
+{
+	background-color: #42A5FF;
+	border: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows:  1fr 1fr;
+	gap: 0px 0px;
+	grid-template-areas:
+    "carousel carousel carousel"
+    ". . .";
+	grid-area: main;
+	overflow:hidden;
+}
+
+
+
+
+.contributors
+{
+	margin-top:60%;
+	width:300%;
+	margin-bottom:90%;
+	
+}
+
+.contri-txt
+{
+	font-size:20px;
+	margin-left:150px;
+	margin-bottom:-160px;
+	margin-top:-80px;
+}
+
+.top-container
+{
+	border: 2px solid white;
+	margin-left:9%;
+	margin-right:10%;
+	margin-top:92%;
+	margin-bottom:400%;
+	border-radius:15px;
+}
+
+.postRef:hover
+{
+	color: #addaff;
+}
+
+.postRef
+{
+	color:white;
+}
+
+.img-circle
+{
+	margin-top:-10px;
+	border-radius: 50%;
+}
+
+.nav_container
+{
+	text-align:center;
+}
+
+.sbr_container
+{
+	margin-left:6%;
+	margin-top:4%;
+}
+
+.btn
+{
+	background-color: #42A5FF;
+	color:white;
+}
+
+.ads_container
+{
+	margin-top:-218%;
+	margin-left:.5%;
+	width:271.8px;
+	height:600px;
+	overflow:hidden;
+	
+}
+
+.ads_portion
+{
+	width:271.8px;
+	height:400px;
+}
+
+.icon-container
+{
+	height:100;
+}
+
+.carousel 
+{
+	border: none; 
+	grid-area: carousel; 
+	margin-top:20px;
+	margin-left:20px;
+	margin-right:20px; 
+	height:140%; 
+}
+
+.right 
+{ 
+	background-color: #42A5FF;
+	border: none;
+	grid-area: right; 
+	margin-right:20%;
+	position: relative;
+	overflow:hidden;
+	color:white;
+}
+
+.grid-container * {
+  height: 100%;
+  margin-bottom:-140%;
+  position: relative;
+}
+
+.footer
+{
+	margin-top:70px;
+	text-align:center;
+}
+
+.rimge_container
+{
+	margin-top:70px;
+	margin-left:40px;
+	height:400px;
+	overflow:hidden;
+}
+
+.postdisc_container
+{
+	margin-top:90px;
+	font-size:40px;
+	height:100px;
+}
+
+.post_add
+{
+	height:200px;
+}
+
+.table-dis1
+{
+	margin-top:170%;
+	margin-bottom:-200%;
+}
+
+.table-dis1
+{
+	height:700px;
+}
+
+.about_title
+{
+	color: white;
+	font-size:30px;
+	margin-left:30px;
+	margin-top:30px;
+	width:160%;
+}
+
+.link_port
+{
+	color:#96CFFF;
+}
+
+.link_port:hover
+{
+	color:#0072ff;
+}
+
+
+/*For the Live Search
+
+.dropdown {
+  margin: 20px;
+}
+
+.dropdown-menu {
+  max-height: 20rem;
+  overflow-y: auto;
+}
+
+
+*/
+
+
+
+
+
